@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Terrain
+  - Background
+  - Bullet
+  - SavePoint
+  - MonsterBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1372793927
+    locked: 0
+  - name: Terrain
+    uniqueID: 287301137
+    locked: 0
+  - name: Props
+    uniqueID: 388348931
+    locked: 0
+  - name: Player
+    uniqueID: 1311403523
+    locked: 0
+  - name: Effect
+    uniqueID: 1689227039
+    locked: 0
+  - name: SavePoint
+    uniqueID: 1548000989
+    locked: 0
+  m_RenderingLayers:
+  - Default
