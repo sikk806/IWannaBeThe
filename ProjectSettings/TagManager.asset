@@ -61,6 +61,9 @@ TagManager:
   - name: Effect
     uniqueID: 1689227039
     locked: 0
+  - name: Hidden
+    uniqueID: 959087139
+    locked: 0
   - name: SavePoint
     uniqueID: 1548000989
     locked: 0

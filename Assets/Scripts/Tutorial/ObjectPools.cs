@@ -8,6 +8,11 @@ public class ObjectPools : MonoBehaviour
 
     List<GameObject> objs;
 
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         objs = new List<GameObject>();

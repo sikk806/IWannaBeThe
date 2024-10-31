@@ -16,18 +16,21 @@ public class CameraController : MonoBehaviour
         }
     }
 
-
-    List<Vector3> CamPositionTutorial = new List<Vector3>();
-    List<Vector3> CamPositionStage1 = new List<Vector3>();
+    List<Vector3> CamPosition = new List<Vector3>();
 
     void Start()
     {
-        CamPositionTutorial.Add(new Vector3(0.0f, 0.0f, -10.0f));
-        CamPositionTutorial.Add(new Vector3(17.9f, 0.0f, -10.0f));
-        CamPositionTutorial.Add(new Vector3(17.9f * 2, 0.0f, -10.0f));
-        CamPositionTutorial.Add(new Vector3(17.9f * 3, 0.0f, -10.0f));
-        CamPositionTutorial.Add(new Vector3(17.9f * 4, 0.0f, -10.0f));
+        if(!PlayerPrefs.HasKey("LoadLevel"))
+        {
+            PlayerPrefs.SetInt("LoadLevel", 0);
+            CamPosition = LevelManager.Instance.levels[0].CameraInfo;
+        }
+        else
+        {
+            CamPosition = LevelManager.Instance.levels[PlayerPrefs.GetInt("LoadLevel")].CameraInfo;
+        }
 
+        Debug.Log(CamPosition.Count);
         if(!PlayerPrefs.HasKey("CameraIndex"))
         {
             PlayerPrefs.SetInt("CameraIndex", 0);
@@ -36,7 +39,7 @@ public class CameraController : MonoBehaviour
         {
             camIndex = PlayerPrefs.GetInt("CameraIndex");
         }
-        transform.position = CamPositionTutorial[camIndex];
+        transform.position = CamPosition[camIndex];
         GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
     }
 
@@ -52,7 +55,7 @@ public class CameraController : MonoBehaviour
             Vector2 otherPosition = other.transform.position;
             if (otherPosition.x > transform.position.x + 9.0f)
             {
-                transform.position = CamPositionTutorial[++camIndex];
+                transform.position = CamPosition[++camIndex];
                 GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
             }
         }
@@ -73,7 +76,7 @@ public class CameraController : MonoBehaviour
     public void ReplayInit()
     {
         camIndex = PlayerPrefs.GetInt("CameraIndex");
-        transform.position = CamPositionTutorial[camIndex];
+        transform.position = CamPosition[camIndex];
         GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
     }
 
