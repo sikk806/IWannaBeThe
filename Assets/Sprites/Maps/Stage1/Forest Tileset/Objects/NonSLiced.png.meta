@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -684,7 +684,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NonSLiced_0: -1118866457415052493
+      NonSLiced_1: 5076589278106702076
+      NonSLiced_10: 127867879315216393
+      NonSLiced_11: 3844740540234770611
+      NonSLiced_12: 5683249472657244382
+      NonSLiced_13: 4348606522814170737
+      NonSLiced_14: 8741913261175645558
+      NonSLiced_15: -2914782898585591812
+      NonSLiced_16: -1624736982535975143
+      NonSLiced_17: -4760679952737911381
+      NonSLiced_18: 4100432032593225346
+      NonSLiced_19: -1149196864595715951
+      NonSLiced_2: 3004912522309432632
+      NonSLiced_20: 1099872376549975297
+      NonSLiced_21: -3942273710657986828
+      NonSLiced_22: 1697698327792282777
+      NonSLiced_3: -4781991938811032978
+      NonSLiced_4: -6014061560350118424
+      NonSLiced_5: 349313835033890384
+      NonSLiced_6: -7045671915125120074
+      NonSLiced_7: 6621130556445346381
+      NonSLiced_8: -3150245170528219136
+      NonSLiced_9: 9047358612203942586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

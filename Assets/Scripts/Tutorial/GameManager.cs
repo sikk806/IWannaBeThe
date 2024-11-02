@@ -22,19 +22,17 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-
-        // For Tutorial
-        if(!PlayerPrefs.HasKey("PositionX"))
-        {
-            PlayerPrefs.SetFloat("PositionX", -6);
-            PlayerPrefs.SetFloat("PositionY", -3);
-        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        // For Tutorial
+        // if(!PlayerPrefs.HasKey("PositionX"))
+        // {
+        //     PlayerPrefs.SetFloat("PositionX", -6);
+        //     PlayerPrefs.SetFloat("PositionY", -3);
+        // }
     }
 
     // Update is called once per frame
@@ -48,6 +46,7 @@ public class GameManager : MonoBehaviour
     
     public void Save()
     {
+        Debug.Log("Save...");
         // Player Save Position
         PlayerPrefs.SetFloat("PositionX", Player.transform.position.x);
         PlayerPrefs.SetFloat("PositionY", Player.transform.position.y + 0.01f);

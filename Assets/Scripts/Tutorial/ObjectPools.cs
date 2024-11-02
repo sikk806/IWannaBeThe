@@ -10,7 +10,7 @@ public class ObjectPools : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     void Start()

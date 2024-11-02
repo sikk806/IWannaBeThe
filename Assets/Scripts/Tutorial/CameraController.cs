@@ -18,20 +18,29 @@ public class CameraController : MonoBehaviour
 
     List<Vector3> CamPosition = new List<Vector3>();
 
+    public int testingLevel = 0;
+
+    void Awake()
+    {
+        //DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
-        if(!PlayerPrefs.HasKey("LoadLevel"))
+        // SaveLevel : Save The Current Level - LevelManager Save this first.
+        if (!PlayerPrefs.HasKey("SaveLevel"))
         {
-            PlayerPrefs.SetInt("LoadLevel", 0);
+            PlayerPrefs.SetInt("SaveLevel", 0);
             CamPosition = LevelManager.Instance.levels[0].CameraInfo;
         }
         else
         {
-            CamPosition = LevelManager.Instance.levels[PlayerPrefs.GetInt("LoadLevel")].CameraInfo;
+            //CamPosition = LevelManager.Instance.levels[PlayerPrefs.GetInt("SaveLevel")].CameraInfo;
+            CamPosition = LevelManager.Instance.levels[testingLevel].CameraInfo;
         }
 
-        Debug.Log(CamPosition.Count);
-        if(!PlayerPrefs.HasKey("CameraIndex"))
+        // CameraIndex : CameraPosition;
+        if (!PlayerPrefs.HasKey("CameraIndex"))
         {
             PlayerPrefs.SetInt("CameraIndex", 0);
         }
@@ -39,8 +48,14 @@ public class CameraController : MonoBehaviour
         {
             camIndex = PlayerPrefs.GetInt("CameraIndex");
         }
+
+        LevelInit(PlayerPrefs.GetInt("SaveLevel"));
+
         transform.position = CamPosition[camIndex];
-        GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+        if (GameManager.Instance.Canvas != null)
+        {
+            GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+        }
     }
 
     void Update()
@@ -55,8 +70,11 @@ public class CameraController : MonoBehaviour
             Vector2 otherPosition = other.transform.position;
             if (otherPosition.x > transform.position.x + 9.0f)
             {
-                transform.position = CamPosition[++camIndex];
-                GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+                //transform.position = CamPosition[++camIndex];
+                if (GameManager.Instance.Canvas != null)
+                {
+                    GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+                }
             }
         }
     }
@@ -77,7 +95,23 @@ public class CameraController : MonoBehaviour
     {
         camIndex = PlayerPrefs.GetInt("CameraIndex");
         transform.position = CamPosition[camIndex];
-        GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+        if (GameManager.Instance.Canvas != null)
+        {
+            GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+        }
+    }
+
+    public void LevelInit(int level)
+    {
+        camIndex = 0;
+        PlayerPrefs.SetInt("CameraIndex", 0);
+        CamPosition = LevelManager.Instance.levels[PlayerPrefs.GetInt("SaveLevel")].CameraInfo;
+    }
+
+    public void CamChange(int indx)
+    {
+        camIndex = indx;
+        transform.position = CamPosition[camIndex];
     }
 
 }

@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -15,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public GameObject BloodPrefab;
     public GameObject BulletPrefab;
     public float Speed = 3.0f;
-    public float JumpSpeed = 10.0f;
+    public float JumpSpeed = 8.0f;
 
     private Vector2 savePosition;
     public Vector2 SavePosition
@@ -45,6 +46,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public int testingLevel = 0;
+
+    void Awake()
+    {
+        //DontDestroyOnLoad(gameObject);
+        Debug.Log(PlayerPrefs.GetInt("SaveLevel"));
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -52,7 +61,11 @@ public class PlayerController : MonoBehaviour
         state = State.Playing;
 
         savePosition = new Vector2(PlayerPrefs.GetFloat("PositionX"), PlayerPrefs.GetFloat("PositionY"));
+        Debug.Log(savePosition);
         transform.position = savePosition;
+
+        //LevelInit(PlayerPrefs.GetInt("SaveLevel"));
+        LevelInit(testingLevel);
     }
 
     // Update is called once per frame
@@ -192,5 +205,13 @@ public class PlayerController : MonoBehaviour
         state = State.Playing;
         jumpCnt = 0;
         transform.position = savePosition;
+    }
+
+    public void LevelInit(int index)
+    {
+        Vector2 pos = LevelManager.Instance.PlayerStartLocation[index];
+        PlayerPrefs.SetFloat("PositionX", pos.x);
+        PlayerPrefs.SetFloat("PositionY", pos.y);
+        transform.position = pos;
     }
 }

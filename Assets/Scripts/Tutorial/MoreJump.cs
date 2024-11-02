@@ -20,7 +20,7 @@ public class MoreJump : MonoBehaviour
         {
             if (other.GetComponent<PlayerController>().JumpCnt != 0)
             {
-                other.GetComponent<PlayerController>().JumpCnt -= 1;
+                other.GetComponent<PlayerController>().JumpCnt = 1;
             }
             GameManager.Instance.SaveResetItems.GetComponent<ResetObjects>().SaveResetItems(gameObject);
             gameObject.SetActive(false);

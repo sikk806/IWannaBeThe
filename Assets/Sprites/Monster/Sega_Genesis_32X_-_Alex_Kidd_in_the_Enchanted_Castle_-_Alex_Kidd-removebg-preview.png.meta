@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: 8f8f66d9e4249ff4abc3bbcffc5908c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9060854678771461323
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_0
+  - first:
+      213: -4231817352423335481
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_1
+  - first:
+      213: 5747218459635035872
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_2
+  - first:
+      213: 8118218469303439651
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_3
+  - first:
+      213: 6104546963512233013
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_4
+  - first:
+      213: -5036097919946023252
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_5
+  - first:
+      213: 5928145484753325389
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_6
+  - first:
+      213: 776353398129450591
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_7
+  - first:
+      213: 1425557272137131691
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_8
+  - first:
+      213: -4515514797114028778
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_9
+  - first:
+      213: -8033574293241357478
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_10
+  - first:
+      213: 3484298425115275954
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_11
+  - first:
+      213: -5578250103599534311
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_12
+  - first:
+      213: -96126012510586138
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_13
+  - first:
+      213: -7492113167331126816
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_14
+  - first:
+      213: 6895962259166127833
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_15
+  - first:
+      213: 7798627162585026251
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_16
+  - first:
+      213: -3119010887207132928
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_17
+  - first:
+      213: 3853675001895113840
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_18
+  - first:
+      213: -1921450373535522731
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_19
+  - first:
+      213: -3914264203644482315
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_20
+  - first:
+      213: 5149150413573770405
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_21
+  - first:
+      213: -8097227727964197619
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_22
+  - first:
+      213: 1067424805885133504
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_23
+  - first:
+      213: 2240138316943514223
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_24
+  - first:
+      213: -7886162347321853618
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_25
+  - first:
+      213: -7220751952601106436
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_26
+  - first:
+      213: 7518556155693740929
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_27
+  - first:
+      213: -935109053253142793
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_28
+  - first:
+      213: -4277498940095868718
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_29
+  - first:
+      213: -2246778404840709990
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_30
+  - first:
+      213: 8070173171150455323
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_31
+  - first:
+      213: -1710901475328889195
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_32
+  - first:
+      213: -7386470626701284294
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_33
+  - first:
+      213: 2661445773627785368
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_34
+  - first:
+      213: 3792775913640249242
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_35
+  - first:
+      213: -8233720981485625945
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_36
+  - first:
+      213: -6301944402680940932
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_37
+  - first:
+      213: -7123277893323117898
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_38
+  - first:
+      213: 5948988169597450270
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_39
+  - first:
+      213: -9100073356720094585
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_40
+  - first:
+      213: -1220095804655735839
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_41
+  - first:
+      213: 7616300458502806933
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_42
+  - first:
+      213: 8065893682316234573
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_43
+  - first:
+      213: 1687859871521346863
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_44
+  - first:
+      213: 6807179107624788055
+    second: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 247
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53314661da0614280800000000000000
+      internalID: -9060854678771461323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 247
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c919720a809545c0800000000000000
+      internalID: -4231817352423335481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 247
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee2d1d2db832cf40800000000000000
+      internalID: 5747218459635035872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 247
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321d8d78fa4b9a070800000000000000
+      internalID: 8118218469303439651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 247
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c06dabe15b7b450800000000000000
+      internalID: 6104546963512233013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 247
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae988bcf9f2c1ab0800000000000000
+      internalID: -5036097919946023252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 247
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dce83e8e0054250800000000000000
+      internalID: 5928145484753325389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 247
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e5ca36d4926ca00800000000000000
+      internalID: 776353398129450591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 247
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba665bc39c898c310800000000000000
+      internalID: 1425557272137131691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 247
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d8ffb573ba551c0800000000000000
+      internalID: -4515514797114028778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b93a67eb2038090800000000000000
+      internalID: -8033574293241357478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2f27005f6ba5030800000000000000
+      internalID: 3484298425115275954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fe9aae5131692b0800000000000000
+      internalID: -5578250103599534311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eab1a2a6ed7aaef0800000000000000
+      internalID: -96126012510586138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 223
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1933ce4caa60890800000000000000
+      internalID: -7492113167331126816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6e81a632163bf50800000000000000
+      internalID: 6895962259166127833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 191
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec791e51a4a3c60800000000000000
+      internalID: 7798627162585026251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 191
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00161719f1c07b4d0800000000000000
+      internalID: -3119010887207132928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 191
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074d2cf1ff00b7530800000000000000
+      internalID: 3853675001895113840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 191
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550afd7c013a555e0800000000000000
+      internalID: -1921450373535522731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 191
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc4eb8027dbda9c0800000000000000
+      internalID: -3914264203644482315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 151
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acce101505757740800000000000000
+      internalID: 5149150413573770405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 151
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d2049484ed0af80800000000000000
+      internalID: -8097227727964197619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 151
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2493b943140de00800000000000000
+      internalID: 1067424805885133504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 151
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad8253ee1961f10800000000000000
+      internalID: 2240138316943514223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f1d6b029be8290800000000000000
+      internalID: -7886162347321853618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 103
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7b0063b5cbacb90800000000000000
+      internalID: -7220751952601106436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 103
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b3f31df6475860800000000000000
+      internalID: 7518556155693740929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 103
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6389e3543d503f0800000000000000
+      internalID: -935109053253142793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 103
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0d97c806543a4c0800000000000000
+      internalID: -4277498940095868718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 103
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90637ad1f6d1d0e0800000000000000
+      internalID: -2246778404840709990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 103
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128f46ddb30fff60800000000000000
+      internalID: 8070173171150455323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 105
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e64554c28a148e0800000000000000
+      internalID: -1710901475328889195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 107
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cec97a91cfd7990800000000000000
+      internalID: -7386470626701284294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 55
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8908c0684da5fe420800000000000000
+      internalID: 2661445773627785368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 55
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a974f253995a2a430800000000000000
+      internalID: 3792775913640249242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad5ed63462fbbd80800000000000000
+      internalID: -8233720981485625945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 55
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76f0f374fefa88a0800000000000000
+      internalID: -6301944402680940932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba251c2f78052d90800000000000000
+      internalID: -7123277893323117898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 41
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e187bdd983d0f8250800000000000000
+      internalID: 5948988169597450270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 43
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782c3be0f7b06b180800000000000000
+      internalID: -9100073356720094585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 42
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebec8b7459511fe0800000000000000
+      internalID: -1220095804655735839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 16
+        width: 231
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d54b30ae882b960800000000000000
+      internalID: 7616300458502806933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fc682b19fcfef60800000000000000
+      internalID: 8065893682316234573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f259aa84c9b7c6710800000000000000
+      internalID: 1687859871521346863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 7
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750af681555f77e50800000000000000
+      internalID: 6807179107624788055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

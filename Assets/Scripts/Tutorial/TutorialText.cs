@@ -20,7 +20,7 @@ public class TutorialText : MonoBehaviour
         description.Add("이 스테이지는 튜토리얼입니다. \n\n즐거운 여행 되시기 바랍니다.(˵ ͡° ͜ʖ ͡°˵)");
 
         title.Add("Moving");
-        description.Add("이동: 방향키 \n\n발사: Z \n\n점프: X");
+        description.Add("이동: 방향키 \n\n점프: Z \n\n발사: X");
 
         title.Add("MoreJump");
         description.Add("아이템을 먹으면 점프 한번 더 가능해요~");
