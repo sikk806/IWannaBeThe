@@ -31,13 +31,15 @@ public class HedgeHog : MonoBehaviour
             }
         }
 
-        if(Vector2.Distance(Player.transform.position, transform.position) < 3.0f)
+        if(Vector2.Distance(Player.transform.position, transform.position) < 2.0f)
         {
-            GetComponent<Animator>().SetTrigger("Attack");
+            GetComponent<Animator>().SetBool("Attack", true);
+            GetComponent<Animator>().SetBool("Walk", false);
         }
         else
         {
-            GetComponent<Animator>().SetTrigger("Walk");
+            GetComponent<Animator>().SetBool("Attack", false);
+            GetComponent<Animator>().SetBool("Walk", true);
         }
     }
 }

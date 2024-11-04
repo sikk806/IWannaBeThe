@@ -186,7 +186,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1259,7 +1259,53 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_0: -9060854678771461323
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_1: -4231817352423335481
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_10: -8033574293241357478
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_11: 3484298425115275954
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_12: -5578250103599534311
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_13: -96126012510586138
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_14: -7492113167331126816
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_15: 6895962259166127833
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_16: 7798627162585026251
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_17: -3119010887207132928
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_18: 3853675001895113840
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_19: -1921450373535522731
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_2: 5747218459635035872
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_20: -3914264203644482315
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_21: 5149150413573770405
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_22: -8097227727964197619
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_23: 1067424805885133504
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_24: 2240138316943514223
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_25: -7886162347321853618
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_26: -7220751952601106436
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_27: 7518556155693740929
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_28: -935109053253142793
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_29: -4277498940095868718
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_3: 8118218469303439651
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_30: -2246778404840709990
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_31: 8070173171150455323
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_32: -1710901475328889195
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_33: -7386470626701284294
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_34: 2661445773627785368
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_35: 3792775913640249242
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_36: -8233720981485625945
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_37: -6301944402680940932
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_38: -7123277893323117898
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_39: 5948988169597450270
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_4: 6104546963512233013
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_40: -9100073356720094585
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_41: -1220095804655735839
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_42: 7616300458502806933
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_43: 8065893682316234573
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_44: 1687859871521346863
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_45: 6807179107624788055
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_5: -5036097919946023252
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_6: 5928145484753325389
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_7: 776353398129450591
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_8: 1425557272137131691
+      Sega_Genesis_32X_-_Alex_Kidd_in_the_Enchanted_Castle_-_Alex_Kidd-removebg-preview_9: -4515514797114028778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

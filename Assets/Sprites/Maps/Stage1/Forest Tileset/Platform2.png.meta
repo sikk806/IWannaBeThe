@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 630e70f36db953340b327c7d8b6ff982
+guid: 101ae70a21f7daf41a4e36d643d56bc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6592149984031176902
-    second: Tile_39_0
+      213: 1777816148787836378
+    second: platform2_waifu2x_art_noise1_scale_0
+  - first:
+      213: 1321789476069894393
+    second: platform2_waifu2x_art_noise1_scale_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tile_39_0
+      name: platform2_waifu2x_art_noise1_scale_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 1
+        y: 3
+        width: 34
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3789b7248af384a0800000000000000
-      internalID: -6592149984031176902
+      spriteID: ad5b3783e521ca810800000000000000
+      internalID: 1777816148787836378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform2_waifu2x_art_noise1_scale_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8eefc7680f75210800000000000000
+      internalID: 1321789476069894393
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tile_39_0: -6592149984031176902
+      platform2_waifu2x_art_noise1_scale_0: 1777816148787836378
+      platform2_waifu2x_art_noise1_scale_1: 1321789476069894393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

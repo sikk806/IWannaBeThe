@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (BottomCollider.IsTouching(TerrainCollider))
+        if (BottomCollider.IsTouching(TerrainCollider) || BottomCollider.IsTouchingLayers(64))
         {
             if (!grounded)
             {
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        grounded = BottomCollider.IsTouching(TerrainCollider);
+        grounded = (BottomCollider.IsTouching(TerrainCollider) || BottomCollider.IsTouchingLayers(64));
 
         prevY = vy;
         prevVx = vx;
