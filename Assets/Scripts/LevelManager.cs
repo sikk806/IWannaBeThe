@@ -75,7 +75,9 @@ public class LevelManager : MonoBehaviour
         CameraPositionStage1.Add(new Vector3(17.9f, 0.0f, -10.0f));
         CameraPositionStage1.Add(new Vector3(17.9f * 2, 0.0f, -10.0f));
         CameraPositionStage1.Add(new Vector3(17.9f, 0.0f, -10.0f));
-        CameraPositionStage1.Add(new Vector3(0.0f, 0.0f, -10.0f));
+        CameraPositionStage1.Add(new Vector3(17.9f, 10.0f, -10.0f));
+        CameraPositionStage1.Add(new Vector3(17.9f * 2, 10.0f, -10.0f));
+        CameraPositionStage1.Add(new Vector3(17.9f * 4, 10.0f, -10.0f));
 
 
         levels.Add(new LevelData { Level = 1, CameraInfo = CameraPositionStage1 });
@@ -87,6 +89,9 @@ public class LevelManager : MonoBehaviour
     {
         nowLevel++;
         PlayerPrefs.SetInt("SaveLevel", nowLevel);
+        PlayerPrefs.SetInt("CameraIndex", 0);
+        PlayerPrefs.SetFloat("PositionX", PlayerStartLocation[nowLevel].x);
+        PlayerPrefs.SetFloat("PositionY", PlayerStartLocation[nowLevel].y);
         SceneManager.LoadScene("Stage" + nowLevel);
     }
 }

@@ -10,7 +10,6 @@ public class TutorialText : MonoBehaviour
     public TMP_Text Title;
     public TMP_Text Description;
 
-
     List<string> title = new List<string>();
     List<string> description = new List<string>();
 
@@ -35,7 +34,7 @@ public class TutorialText : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        
     }
 
     public void SetTheText(int camIndex)

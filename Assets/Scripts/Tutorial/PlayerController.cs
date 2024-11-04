@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
@@ -11,6 +13,7 @@ public class PlayerController : MonoBehaviour
         Dead
     }
 
+    public List<AudioClip> AudioSourceClip;
     public Collider2D BottomCollider;
     public CompositeCollider2D TerrainCollider;
     public GameObject BloodPrefab;
@@ -28,6 +31,7 @@ public class PlayerController : MonoBehaviour
     }
 
     State state;
+    AudioSource audioSource;
 
     float vx = 0, vy = 0;
     float prevVx = 0, prevY = 0;
@@ -50,8 +54,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        //DontDestroyOnLoad(gameObject);
-        Debug.Log(PlayerPrefs.GetInt("SaveLevel"));
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -61,11 +64,12 @@ public class PlayerController : MonoBehaviour
         state = State.Playing;
 
         savePosition = new Vector2(PlayerPrefs.GetFloat("PositionX"), PlayerPrefs.GetFloat("PositionY"));
-        Debug.Log(savePosition);
         transform.position = savePosition;
 
-        //LevelInit(PlayerPrefs.GetInt("SaveLevel"));
-        LevelInit(testingLevel);
+        GetComponent<Collider2D>().enabled = false;
+
+        JumpCheck = true;
+        Invoke("SetCollision", 0.1f);
     }
 
     // Update is called once per frame
@@ -138,12 +142,14 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && jumpCnt == 1 && !grounded)
         {
+            audioSource.PlayOneShot(AudioSourceClip[1]);
             jumpCnt++;
             vy = JumpSpeed * 0.8f;
         }
 
         if (Input.GetButtonDown("Jump") && (grounded || (jumpCnt == 0 && !grounded)))
         {
+            audioSource.PlayOneShot(AudioSourceClip[1]);
             jumpCnt++;
             vy = JumpSpeed;
         }
@@ -170,6 +176,7 @@ public class PlayerController : MonoBehaviour
             {
                 bullet.transform.position = transform.position;
                 bullet.GetComponent<Bullets>().Velocity = bulletV;
+                audioSource.PlayOneShot(AudioSourceClip[0]);
 
             }
         }
@@ -185,6 +192,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnDead()
     {
+        GameManager.Instance.AudioManager.ChangeSound(1);
         state = State.Dead;
         gameObject.SetActive(false);
         for (int i = 0; i < GameManager.Instance.BloodPool.GetComponent<ObjectPools>().InitialObjectNumber; i++)
@@ -200,6 +208,8 @@ public class PlayerController : MonoBehaviour
 
     public void ReplayInit()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameManager.Instance.AudioManager.ChangeSound(0);
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         gameObject.SetActive(true);
         state = State.Playing;
@@ -207,11 +217,8 @@ public class PlayerController : MonoBehaviour
         transform.position = savePosition;
     }
 
-    public void LevelInit(int index)
+    void SetCollision()
     {
-        Vector2 pos = LevelManager.Instance.PlayerStartLocation[index];
-        PlayerPrefs.SetFloat("PositionX", pos.x);
-        PlayerPrefs.SetFloat("PositionY", pos.y);
-        transform.position = pos;
+        GetComponent<Collider2D>().enabled = true;
     }
 }

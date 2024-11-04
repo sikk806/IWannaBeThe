@@ -6,6 +6,19 @@ public class CameraIndexTrigger : MonoBehaviour
     int CamIndex = 0;
     bool bCheck = false;
 
+    void Start()
+    {
+        int GetNowCamIndex = PlayerPrefs.GetInt("CameraIndex");
+        if(GetNowCamIndex > CamIndex)
+        {
+            bCheck = true;
+        }
+        else
+        {
+            bCheck = false;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
@@ -13,14 +26,13 @@ public class CameraIndexTrigger : MonoBehaviour
             if(!bCheck)
             {
                 bCheck = true;
-                CamIndex++;
+                GameManager.Instance.MainCamera.CamChange(CamIndex + 1);
             }
             else
             {
                 bCheck = false;
-                CamIndex--;
+                GameManager.Instance.MainCamera.CamChange(CamIndex);
             }
-            GameManager.Instance.MainCamera.CamChange(CamIndex);
         }
     }
 }

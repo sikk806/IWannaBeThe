@@ -18,6 +18,7 @@ public class Disappear : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            GameManager.Instance.SaveResetItems.GetComponent<ResetObjects>().SaveResetItems(gameObject);
             gameObject.SetActive(false);
         }
     }

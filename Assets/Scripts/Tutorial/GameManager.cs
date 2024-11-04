@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public ResetObjects SaveResetItems;
     public PlayerController Player;
     public CameraController MainCamera;
+    public AudioManager AudioManager;
 
     private void Awake()
     {
@@ -27,12 +28,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // For Tutorial
-        // if(!PlayerPrefs.HasKey("PositionX"))
-        // {
-        //     PlayerPrefs.SetFloat("PositionX", -6);
-        //     PlayerPrefs.SetFloat("PositionY", -3);
-        // }
+
     }
 
     // Update is called once per frame
@@ -63,5 +59,6 @@ public class GameManager : MonoBehaviour
         Player.ReplayInit();
         MainCamera.ReplayInit();
         SaveResetItems.ReplayInit();
+        SaveResetItems.CanReplayInit();
     }
 }

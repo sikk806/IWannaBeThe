@@ -36,6 +36,7 @@ public class Bullets : MonoBehaviour
             else if(other.gameObject.tag == "Boss")
             {
                 other.gameObject.GetComponent<AlexKid>().Hit(1);
+                gameObject.SetActive(false);
             }
         }
     }

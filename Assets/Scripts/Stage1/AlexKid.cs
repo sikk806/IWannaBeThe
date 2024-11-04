@@ -55,6 +55,10 @@ public class AlexKid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Hp <= 0)
+        {
+            CancelInvoke();
+        }
         if (bStartBossTrigger)
         {
             if (bNextPattern == true)
@@ -216,7 +220,27 @@ public class AlexKid : MonoBehaviour
     public void Hit(int damage)
     {
         Hp -= damage;
+        GetComponent<SpriteRenderer>().color = new Vector4(1.0f, 1.0f, 1.0f, 0.5f);
+        Invoke("AlphaChange", 0.1f);
+        if (Hp <= 0)
+        {
+            AlphaChange();
+            bRun = false;
+            bBombDrop = false;
+            bJump = false;
+            GetComponent<Animator>().SetTrigger("Dead");
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().linearVelocityY = 2.0f;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            GetComponent<BoxCollider2D>().enabled = false;
 
+            grandpa.gameObject.SetActive(false);
+        }
+    }
+
+    void AlphaChange()
+    {
+        GetComponent<SpriteRenderer>().color = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
     }
 
 

@@ -7,11 +7,12 @@ public class LinearMotion : MonoBehaviour
     [SerializeField]
     bool isTrigger = false;
 
+    Vector2 OriginPosition;
     bool bEnter = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        OriginPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -28,7 +29,14 @@ public class LinearMotion : MonoBehaviour
     {
         if (other.tag == "Player" && isTrigger)
         {
+            GameManager.Instance.SaveResetItems.GetComponent<ResetObjects>().SaveResetInitItems(gameObject);
             bEnter = true;
         }
+    }
+
+    public void ReplayInit()
+    {
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        transform.position = OriginPosition;
     }
 }

@@ -27,6 +27,7 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(PlayerPrefs.GetInt("CameraIndex"));
         // SaveLevel : Save The Current Level - LevelManager Save this first.
         if (!PlayerPrefs.HasKey("SaveLevel"))
         {
@@ -49,7 +50,7 @@ public class CameraController : MonoBehaviour
             camIndex = PlayerPrefs.GetInt("CameraIndex");
         }
 
-        LevelInit(PlayerPrefs.GetInt("SaveLevel"));
+        //LevelInit(PlayerPrefs.GetInt("SaveLevel"));
 
         transform.position = CamPosition[camIndex];
         if (GameManager.Instance.Canvas != null)
@@ -112,6 +113,10 @@ public class CameraController : MonoBehaviour
     {
         camIndex = indx;
         transform.position = CamPosition[camIndex];
+        if (GameManager.Instance.Canvas != null)
+        {
+            GameManager.Instance.Canvas.GetComponent<TutorialText>().SetTheText(camIndex);
+        }
     }
 
 }
