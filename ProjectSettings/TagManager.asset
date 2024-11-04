@@ -11,6 +11,7 @@ TagManager:
   - MonsterBullet
   - Monster
   - Obstacle
+  - Boss
   layers:
   - Default
   - TransparentFX
