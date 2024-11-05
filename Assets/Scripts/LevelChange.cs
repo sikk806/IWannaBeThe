@@ -6,6 +6,7 @@ public class LevelChange : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            LevelManager.Instance.GetComponent<LevelManager>().NowLevel = 0;
             LevelManager.Instance.StartLevel();
         }
     }

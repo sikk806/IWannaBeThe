@@ -27,7 +27,6 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(PlayerPrefs.GetInt("CameraIndex"));
         // SaveLevel : Save The Current Level - LevelManager Save this first.
         if (!PlayerPrefs.HasKey("SaveLevel"))
         {

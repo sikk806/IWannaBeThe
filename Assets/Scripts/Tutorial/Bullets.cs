@@ -20,22 +20,22 @@ public class Bullets : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameManager GM = GameManager.Instance;
+        if (other.gameObject.tag == "Terrain")
+        {
+            gameObject.SetActive(false);
+        }
         if (GM.MainCamera.IsObjectInCameraView(other.gameObject))
         {
-            if (other.gameObject.tag == "Terrain")
-            {
-                gameObject.SetActive(false);
-            }
-            else if (other.gameObject.tag == "SavePoint")
+            if (other.gameObject.tag == "SavePoint")
             {
                 if (other.gameObject)
                 {
                     GM.Save();
                 }
             }
-            else if(other.gameObject.tag == "Boss")
+            else if (other.gameObject.tag == "Boss")
             {
-                other.gameObject.GetComponent<AlexKid>().Hit(1);
+                other.gameObject.GetComponent<Health>().Damage(1);
                 gameObject.SetActive(false);
             }
         }

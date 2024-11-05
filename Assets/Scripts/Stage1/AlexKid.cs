@@ -4,7 +4,7 @@ using Unity.Burst;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class AlexKid : MonoBehaviour
+public class AlexKid : MonoBehaviour, Health.IHealthListener
 {
     [SerializeField]
     float KickSpeed;
@@ -14,6 +14,8 @@ public class AlexKid : MonoBehaviour
 
     public ObjectPools BombObjectPool;
     public Grandpa grandpa;
+    public List<AudioClip> AudioSourceClip;
+
 
     public bool bStartBossTrigger;
     float checkTime;
@@ -23,6 +25,7 @@ public class AlexKid : MonoBehaviour
     bool bBombDrop;
     bool bJump;
 
+    AudioSource audioSource;
     PlayerController Player;
     Vector2 StartPosition = new Vector2(81f, 6.3f);
     List<string> BossPattern = new List<string>();
@@ -36,6 +39,8 @@ public class AlexKid : MonoBehaviour
 
         GetComponent<Animator>().SetTrigger("BombDrop");
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -200,12 +205,15 @@ public class AlexKid : MonoBehaviour
 
     void PatternBool()
     {
-        checkTime = 0.0f;
-        bRun = false;
-        bBombDrop = false;
-        bJump = false;
-        bNextPattern = true;
-        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        if (Hp > 0)
+        {
+            checkTime = 0.0f;
+            bRun = false;
+            bBombDrop = false;
+            bJump = false;
+            bNextPattern = true;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        }
     }
 
     void DisappearGrandpa()
@@ -217,25 +225,12 @@ public class AlexKid : MonoBehaviour
         Invoke("PatternBool", 3.0f);
     }
 
-    public void Hit(int damage)
+    public void Hit()
     {
-        Hp -= damage;
+        Hp--;
+        audioSource.PlayOneShot(AudioSourceClip[0]);
         GetComponent<SpriteRenderer>().color = new Vector4(1.0f, 1.0f, 1.0f, 0.5f);
         Invoke("AlphaChange", 0.1f);
-        if (Hp <= 0)
-        {
-            AlphaChange();
-            bRun = false;
-            bBombDrop = false;
-            bJump = false;
-            GetComponent<Animator>().SetTrigger("Dead");
-            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-            GetComponent<Rigidbody2D>().linearVelocityY = 2.0f;
-            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-            GetComponent<BoxCollider2D>().enabled = false;
-
-            grandpa.gameObject.SetActive(false);
-        }
     }
 
     void AlphaChange()
@@ -243,6 +238,23 @@ public class AlexKid : MonoBehaviour
         GetComponent<SpriteRenderer>().color = new Vector4(1.0f, 1.0f, 1.0f, 1.0f);
     }
 
+    public void OnDie()
+    {
+        AlphaChange();
+        bRun = false;
+        bBombDrop = false;
+        bJump = false;
+        GetComponent<Animator>().SetTrigger("Dead");
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        GetComponent<Rigidbody2D>().linearVelocityY = 2.0f;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        GetComponent<BoxCollider2D>().enabled = false;
+        GameManager.Instance.AudioManager.GetComponent<AudioManager>().ChangeSound(3);
+
+        grandpa.gameObject.SetActive(false);
+
+        GameManager.Instance.Invoke("GameClear", 4.0f);
+    }
 
 
 }

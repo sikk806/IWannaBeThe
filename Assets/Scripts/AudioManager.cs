@@ -33,4 +33,9 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = audioClips[index];
         audioSource.Play();
     }
+
+    public void StopSound()
+    {
+        audioSource.Stop();
+    }
 }

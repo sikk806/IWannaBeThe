@@ -192,6 +192,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnDead()
     {
+        audioSource.PlayOneShot(AudioSourceClip[2]);
+        GameManager.Instance.GameOver.gameObject.SetActive(true);
         GameManager.Instance.AudioManager.ChangeSound(1);
         state = State.Dead;
         gameObject.SetActive(false);
@@ -209,6 +211,7 @@ public class PlayerController : MonoBehaviour
     public void ReplayInit()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameManager.Instance.GameOver.gameObject.SetActive(false);
         GameManager.Instance.AudioManager.ChangeSound(0);
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         gameObject.SetActive(true);

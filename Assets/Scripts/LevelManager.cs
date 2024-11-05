@@ -13,6 +13,13 @@ public class LevelManager : MonoBehaviour
     public List<Vector2> PlayerStartLocation = new List<Vector2>();
     public List<LevelData> levels = new List<LevelData>();
     int nowLevel;
+    public int NowLevel
+    {
+        set
+        {
+            nowLevel = value;
+        }
+    }
 
     private static LevelManager instance;
     public static LevelManager Instance
@@ -79,10 +86,9 @@ public class LevelManager : MonoBehaviour
         CameraPositionStage1.Add(new Vector3(17.9f * 2, 10.0f, -10.0f));
         CameraPositionStage1.Add(new Vector3(17.9f * 4, 10.0f, -10.0f));
 
-
         levels.Add(new LevelData { Level = 1, CameraInfo = CameraPositionStage1 });
 
-        PlayerStartLocation.Add(new Vector2(-2f, -3f));
+        PlayerStartLocation.Add(new Vector2(-6.74f, -1.75f));
     }
 
     public void StartLevel()

@@ -1,8 +1,6 @@
 
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class TutorialText : MonoBehaviour
@@ -22,10 +20,10 @@ public class TutorialText : MonoBehaviour
         description.Add("이동: 방향키 \n\n점프: Z \n\n발사: X");
 
         title.Add("MoreJump");
-        description.Add("아이템을 먹으면 점프 한번 더 가능해요~");
+        description.Add("아이템을 먹으면 점프 한번 더 가능해요");
 
         title.Add("Save");
-        description.Add("총알이 풍선에 닿는 순간 현재 위치 저장");
+        description.Add("총알이 풍선에 닿는 순간 현재 위치 저장 \n\n R키를 누르면 저장된 위치에서 재시작이 가능해요");
 
         title.Add("Good Luck!");
         description.Add(@"행운을 빌어요 ¯\_( ͡° ͜ʖ ͡°)_/¯");

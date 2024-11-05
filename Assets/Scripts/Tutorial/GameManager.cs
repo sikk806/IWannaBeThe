@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class GameManager : MonoBehaviour
     }
 
     public GameObject Canvas;
+    public GameObject GameOver;
+    public GameObject Clear;
     public ObjectPools BulletPool;
     public ObjectPools BloodPool;
     public ResetObjects SaveResetItems;
@@ -42,7 +45,6 @@ public class GameManager : MonoBehaviour
     
     public void Save()
     {
-        Debug.Log("Save...");
         // Player Save Position
         PlayerPrefs.SetFloat("PositionX", Player.transform.position.x);
         PlayerPrefs.SetFloat("PositionY", Player.transform.position.y + 0.01f);
@@ -60,5 +62,17 @@ public class GameManager : MonoBehaviour
         MainCamera.ReplayInit();
         SaveResetItems.ReplayInit();
         SaveResetItems.CanReplayInit();
+    }
+
+    public void GameClear()
+    {
+        AudioManager.GetComponent<AudioManager>().StopSound();
+        Time.timeScale = 0;
+        Clear.SetActive(true);
+    }
+
+    public void GoHome()
+    {
+        SceneManager.LoadScene("Main");
     }
 }
