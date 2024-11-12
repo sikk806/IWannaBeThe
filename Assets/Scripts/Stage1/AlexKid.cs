@@ -62,7 +62,7 @@ public class AlexKid : MonoBehaviour, Health.IHealthListener
     {
         if (Hp <= 0)
         {
-            CancelInvoke();
+            //CancelInvoke();
         }
         if (bStartBossTrigger)
         {
@@ -127,6 +127,7 @@ public class AlexKid : MonoBehaviour, Health.IHealthListener
 
     void ChangePattern(int index)
     {
+        Debug.Log(index);
         GetComponent<Animator>().SetTrigger(BossPattern[index]);
         switch (index)
         {
@@ -205,15 +206,12 @@ public class AlexKid : MonoBehaviour, Health.IHealthListener
 
     void PatternBool()
     {
-        if (Hp > 0)
-        {
-            checkTime = 0.0f;
-            bRun = false;
-            bBombDrop = false;
-            bJump = false;
-            bNextPattern = true;
-            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-        }
+        checkTime = 0.0f;
+        bRun = false;
+        bBombDrop = false;
+        bJump = false;
+        bNextPattern = true;
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
     }
 
     void DisappearGrandpa()
